@@ -105,6 +105,7 @@ picker.addEventListener("change", () => {
 
 clear.addEventListener("click", () => {
     art.clearRect(0, 0, canvas.width, canvas.height);
+    setCanvasBackground();
 });
 
 save.addEventListener("click", () => {
